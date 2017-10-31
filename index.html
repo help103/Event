@@ -369,7 +369,8 @@ Dinner 6:30 PM onwards
 	<script type="text/javascript" src="assets/js/plugins.js"></script>
 	<!-- Custom JavaScript Functions -->
 	<script type="text/javascript" src="assets/js/functions.js"></script>
-	$('a[href*=#]:not([href=#])').click(function() {
+	<script type="text/javascript">
+		$('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
         || location.hostname == this.hostname) {
 
@@ -383,6 +384,6 @@ Dinner 6:30 PM onwards
         }
   }
 });	
-	
+</script>	
 </body>
 </html>
